@@ -1,4 +1,4 @@
 # Neptune
-Python based Raw Network Packet Analyzer.
+Python based Raw Network Packet Analyzer. An attempt to build raw wireshark.
 Written in Python3, the code was basically designed to inspect and trace certain specific communication problem relating to SIP and H323 traffic in the data centre network. The code was then generalised to replace my usual usage of Wireshark to analyse network problems. The program essentially does all basics of Wireshark, plus added flexibility of custom coding. The program captures and opens TCP header to further segregate and present specifics of the packet as type, sequence number, payload protocols, source and destination address and ports. The code has been further customised and is in usage to detect STP loops and CDP exchanges.
  
